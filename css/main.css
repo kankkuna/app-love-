@@ -1,0 +1,171 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+
+header {
+  background-color: inherit;
+  padding: 20px 60px 20px 300px;
+  background-color: #fff;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  position: fixed;
+  margin-bottom: 60px;
+  top: 0;
+
+}
+
+header ul {
+  float: left;
+  margin right: 20%;
+  padding: 0;
+  margin-top: 25px;
+  margin-right: 48%;
+}
+header ul li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+header.logo img{
+  width: 80%;
+}
+
+header img {
+  width: 5%;
+}
+
+section.bg-img {
+
+background-image: url(../assets/images/bg-home.jpg);
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+text-align: center;
+color: white;
+padding: 100px 200px 150px 200px;
+margin-top: 100px;
+
+}
+
+div {
+  font-family: 'Raleway', sans-serif;
+
+}
+
+section.bg-img h2 {
+  font-size: 20px;
+  font-weight: 500px;
+}
+
+section.bg-img h1 {
+  font-size: 45px;
+  font-weight: 600px;
+}
+
+section a {
+
+  background-color: #32cd73;
+  padding: 20px 5px 20px 5px;
+  color: white;
+}
+/*services*/
+section.services  {
+  background-color: #f17c72;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  margin: -20px auto 0 auto;
+  width: 1300px;
+
+}
+section.services .boxs{
+  display: inline-block;
+  margin: 0 80px;
+}
+section.services img {
+  width: 200px;
+}
+/*work*/
+section.works {
+  background-color: white;
+  color: blc;
+  text-align: center;
+  padding-top: 20px;
+  margin: -20px auto 0 auto;
+  width: 1300px;
+}
+
+section.works img {
+  width: 950px;
+}
