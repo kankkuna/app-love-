@@ -72,6 +72,11 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+body {
+ background-color: black;
+ position: static;
+
+}
 
 header {
   background-color: inherit;
@@ -79,7 +84,7 @@ header {
   background-color: #fff;
   width: 100%;
   font-family: 'Raleway', sans-serif;
-  position: fixed;
+  /*position: fixed;*/
   margin-bottom: 60px;
   top: 0;
 
@@ -157,15 +162,43 @@ section.services img {
   width: 200px;
 }
 /*work*/
-section.works {
+section.pc {
   background-color: white;
-  color: blc;
+  color: black;
   text-align: center;
   padding-top: 20px;
   margin: -20px auto 0 auto;
   width: 1300px;
 }
 
-section.works img {
+section.pc img {
   width: 950px;
+  margin-right: -30px;
+}
+
+section.trio{
+  display: inline-block;
+}
+
+section.trio img{
+width: 300px;
+margin: 60px 60px 60px 80px;
+display: inline-block;
+
+}
+
+section.trio .blockwork{
+  color: black;
+  text-align: center;
+  display: inline-block;
+  background-color: white
+}
+
+footer {
+  text-align: center;
+  background-color: #373b47;
+  color: white;
+  height: 60px;
+  padding-top: 5px;
+  font-family: 'Raleway', sans-serif;
 }
